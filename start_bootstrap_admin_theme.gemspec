@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.description = "Rails engine for Start Bootstrap Admin Theme"
   spec.license     = "MIT"
 
-  spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  spec.files = Dir["{app,config,db,lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   spec.add_dependency "rails", "~> 6.0.2", ">= 6.0.2.1"
 
