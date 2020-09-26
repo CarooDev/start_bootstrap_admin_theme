@@ -14,4 +14,4 @@ For example,
 
 ## Check Start Bootstrap demo
 
-Make sure local Rails server is running. Go to http://localhost:3000/start_bootstrap_admin_theme/pages/index.html.
+Make sure the spec/dummy Rails server is running. Go to http://localhost:3000/start_bootstrap_admin_theme/pages/index.html to check the demo.

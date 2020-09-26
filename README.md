@@ -22,6 +22,12 @@ Or install it yourself as:
 $ gem install start_bootstrap_admin_theme
 ```
 
+## Usage
+
+You can use `app/views/start_bootstrap_admin_theme/pages/index.html.erb` as a base for your layout.
+
+You can also run the SB admin demo in your app, which can be useful during development. To do so, add `mount StartBootstrapAdminTheme::Engine => "/start_bootstrap_admin_theme"` to your `config/routes`. You should see the demo at http://localhost:3000/start_bootstrap_admin_theme/pages/index.html.
+
 ## Development
 
 See https://github.com/SnackNation/start_bootstrap_admin_theme/blob/master/script/install/USAGE.md for how to import updates to the Start Bootstrap Admin Theme into this repo.
